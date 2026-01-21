@@ -33,7 +33,7 @@
                 <h5 class="text-lg font-bold mb-4">Estudiantes Registrados</h5>
                 <table class="min-w-full table-auto border-collapse border border-green-500">
                     <thead>
-                        <tr class="bg-green-300 text-white">
+                        <tr class="bg-green-600 text-white">
                             <th class="border p-2">Nombre</th>
                             <th class="border p-2">Código</th>
                             <th class="border p-2">Carrera</th>

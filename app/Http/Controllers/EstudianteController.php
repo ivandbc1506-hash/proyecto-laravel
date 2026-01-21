@@ -24,6 +24,5 @@ class EstudianteController extends Controller
 
         Estudiante::create($request->all());
 
-        return redirect()->route('estudiantes.index')->with('success', '¡Estudiante guardado!');
-    }
+       return redirect()->route('dashboard')->with('success', '¡Estudiante guardado!');
 }

@@ -30,10 +30,10 @@
 
                 <hr class="my-6">
 
-                <h3 class="text-lg font-bold mb-4">Estudiantes Registrados</h3>
+                <h5 class="text-lg font-bold mb-4">Estudiantes Registrados</h5>
                 <table class="min-w-full table-auto border-collapse border border-gray-200">
                     <thead>
-                        <tr class="bg-green-600 text-white">
+                        <tr class="bg-green-1000 text-white">
                             <th class="border p-2">Nombre</th>
                             <th class="border p-2">Código</th>
                             <th class="border p-2">Carrera</th>

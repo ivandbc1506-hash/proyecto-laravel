@@ -7,10 +7,9 @@ use App\Models\Estudiante;
 
 class EstudianteController extends Controller
 {
-    // Esta función sirve para mostrar la página con la lista
     public function index()
     {
-        $estudiantes = Estudiante::all(); 
+        $estudiantes = Estudiante::all();
         return view('estudiantes', compact('estudiantes'));
     }
 
@@ -24,5 +23,6 @@ class EstudianteController extends Controller
 
         Estudiante::create($request->all());
 
-       return redirect()->route('dashboard')->with('success', '¡Estudiante guardado!');
-}
+        return redirect()->route('dashboard')->with('success', '¡Estudiante guardado!');
+    }
+} // <--- ESTA LLAVE ES LA QUE TE FALTA Y CIERRA LA LÍNEA 9
